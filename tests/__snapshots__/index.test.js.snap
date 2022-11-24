@@ -86,9 +86,9 @@ exports[`AnotherAnsiProvider with unicode modify 2`] = `"[1mtest[22m"`;
 
 exports[`AnotherAnsiProvider with unicode modify 3`] = `"[2mtest[22m"`;
 
-exports[`AnotherAnsiProvider with unicode modify 4`] = `"[3mtest[22m"`;
+exports[`AnotherAnsiProvider with unicode modify 4`] = `"[3mtest[23m"`;
 
-exports[`AnotherAnsiProvider with unicode modify 5`] = `"[4mtest[22m"`;
+exports[`AnotherAnsiProvider with unicode modify 5`] = `"[4mtest[24m"`;
 
 exports[`AnotherAnsiProvider with unicode modify 6`] = `"[53mtest[55m"`;
 
