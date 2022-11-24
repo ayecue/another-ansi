@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnotherAnsiProvider with unicode 16m 1`] = `"[38;2;255;0;0mundefined[39m"`;
+
+exports[`AnotherAnsiProvider with unicode 16m 2`] = `"[48;2;255;0;0mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 1`] = `"[40mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 2`] = `"[41mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 3`] = `"[42mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 4`] = `"[43mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 5`] = `"[44mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 6`] = `"[45mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 7`] = `"[46mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 8`] = `"[47mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 9`] = `"[100mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 10`] = `"[100mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 11`] = `"[100mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 12`] = `"[101mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 13`] = `"[102mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 14`] = `"[103mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 15`] = `"[104mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 16`] = `"[105mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 17`] = `"[106mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode bgColor 18`] = `"[107mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode color 1`] = `"[30mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 2`] = `"[31mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 3`] = `"[32mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 4`] = `"[33mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 5`] = `"[34mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 6`] = `"[35mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 7`] = `"[36mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 8`] = `"[37mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 9`] = `"[90mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 10`] = `"[90mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 11`] = `"[90mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 12`] = `"[91mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 13`] = `"[92mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 14`] = `"[93mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 15`] = `"[94mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 16`] = `"[95mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 17`] = `"[96mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode color 18`] = `"[97mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode hex 1`] = `"[38;5;196mundefined[39m"`;
+
+exports[`AnotherAnsiProvider with unicode hex 2`] = `"[48;5;196mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 1`] = `"[0mtest[0m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 2`] = `"[1mtest[22m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 3`] = `"[2mtest[22m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 4`] = `"[3mtest[22m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 5`] = `"[4mtest[22m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 6`] = `"[53mtest[55m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 7`] = `"[7mtest[27m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 8`] = `"[8mtest[28m"`;
+
+exports[`AnotherAnsiProvider with unicode modify 9`] = `"[9mtest[29m"`;
+
+exports[`AnotherAnsiProvider with unicode rgb 1`] = `"[38;5;196mundefined[39m"`;
+
+exports[`AnotherAnsiProvider with unicode rgb 2`] = `"[48;5;196mundefined[49m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 1`] = `
+Object {
+  "bgColor": Object {
+    "black": "[40m",
+    "blackBright": "[100m",
+    "blue": "[44m",
+    "blueBright": "[104m",
+    "close": "[49m",
+    "cyan": "[46m",
+    "cyanBright": "[106m",
+    "gray": "[100m",
+    "green": "[42m",
+    "greenBright": "[102m",
+    "grey": "[100m",
+    "magenta": "[45m",
+    "magentaBright": "[105m",
+    "red": "[41m",
+    "redBright": "[101m",
+    "white": "[47m",
+    "whiteBright": "[107m",
+    "yellow": "[43m",
+    "yellowBright": "[103m",
+  },
+  "bgColorBy16m": [Function],
+  "bgColorByHex": [Function],
+  "bgColorByRgb": [Function],
+  "color": Object {
+    "black": "[30m",
+    "blackBright": "[90m",
+    "blue": "[34m",
+    "blueBright": "[94m",
+    "close": "[39m",
+    "cyan": "[36m",
+    "cyanBright": "[96m",
+    "gray": "[90m",
+    "green": "[32m",
+    "greenBright": "[92m",
+    "grey": "[90m",
+    "magenta": "[35m",
+    "magentaBright": "[95m",
+    "red": "[31m",
+    "redBright": "[91m",
+    "white": "[37m",
+    "whiteBright": "[97m",
+    "yellow": "[33m",
+    "yellowBright": "[93m",
+  },
+  "colorBy16m": [Function],
+  "colorByHex": [Function],
+  "colorByRgb": [Function],
+  "command": Object {
+    "clear": "[2J[3J[;H",
+  },
+  "modifier": Object {
+    "bold": "[1m",
+    "dim": "[2m",
+    "hidden": "[8m",
+    "inverse": "[7m",
+    "italic": "[3m",
+    "overline": "[53m",
+    "reset": "[0m",
+    "strikethrough": "[9m",
+    "underline": "[4m",
+  },
+}
+`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 2`] = `"undefinedtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 3`] = `"undefinedtest[49m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 4`] = `"undefinedtestundefined"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 5`] = `"[2J[3J[;H"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 6`] = `"[38;5;196mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 7`] = `"[38;5;196mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 8`] = `"[38;2;255;0;0mtest[39m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 9`] = `"[48;5;196mtest[49m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 10`] = `"[48;5;196mtest[49m"`;
+
+exports[`AnotherAnsiProvider with unicode styleObject 11`] = `"[48;2;255;0;0mtest[49m"`;
