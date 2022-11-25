@@ -13,7 +13,8 @@ export enum EscapeSequence {
 }
 
 export enum CommandType {
-  Clear = 'clear'
+  Clear = 'clear',
+  Backspace = 'backspace'
 }
 
 export enum ModifierType {
@@ -219,6 +220,8 @@ export class AnotherAnsiProvider {
     switch (type) {
       case CommandType.Clear:
         return `${this.escapeSequence}[2J${this.escapeSequence}[3J${this.escapeSequence}[;H`;
+      case CommandType.Backspace:
+        return `${this.escapeSequence}[D${this.escapeSequence}[K`
       default:
         throw new Error('Unknown command.');
     }
@@ -263,7 +266,8 @@ export class AnotherAnsiProvider {
         close: this.ansi(BACKGROUND_COLOR_CLOSE_CODE)
       },
       command: {
-        [CommandType.Clear]: this.command(CommandType.Clear)
+        [CommandType.Clear]: this.command(CommandType.Clear),
+        [CommandType.Backspace]: this.command(CommandType.Backspace),
       }
     };
   }

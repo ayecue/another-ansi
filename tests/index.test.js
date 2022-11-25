@@ -1,3 +1,4 @@
+const { CommandType } = require('../dist');
 const { AnotherAnsiProvider, ModifierType, ColorType } = require('../dist');
 
 describe('AnotherAnsiProvider', function () {
@@ -56,6 +57,11 @@ describe('AnotherAnsiProvider', function () {
       expect(provider.bgColor(ColorType.MagentaBright)).toMatchSnapshot();
       expect(provider.bgColor(ColorType.CyanBright)).toMatchSnapshot();
       expect(provider.bgColor(ColorType.WhiteBright)).toMatchSnapshot();
+    });
+
+    test('command', () => {
+      expect(provider.command(CommandType.Clear)).toMatchSnapshot();
+      expect(provider.command(CommandType.Backspace)).toMatchSnapshot();
     });
 
     test('hex', () => {

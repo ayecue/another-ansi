@@ -1,6 +1,6 @@
 {
     "name": "another-ansi",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Another ansi library",
     "main": "dist/index",
     "typings": "dist/index",

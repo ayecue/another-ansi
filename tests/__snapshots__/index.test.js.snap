@@ -76,6 +76,10 @@ exports[`AnotherAnsiProvider with unicode color 17`] = `"[96mtest[39m"`;
 
 exports[`AnotherAnsiProvider with unicode color 18`] = `"[97mtest[39m"`;
 
+exports[`AnotherAnsiProvider with unicode command 1`] = `"[2J[3J[;H"`;
+
+exports[`AnotherAnsiProvider with unicode command 2`] = `"[D[K"`;
+
 exports[`AnotherAnsiProvider with unicode hex 1`] = `"[38;5;196mundefined[39m"`;
 
 exports[`AnotherAnsiProvider with unicode hex 2`] = `"[48;5;196mundefined[49m"`;
@@ -153,6 +157,7 @@ Object {
   "colorByHex": [Function],
   "colorByRgb": [Function],
   "command": Object {
+    "backspace": "[D[K",
     "clear": "[2J[3J[;H",
   },
   "modifier": Object {
